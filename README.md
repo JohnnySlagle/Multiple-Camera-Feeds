@@ -1,4 +1,4 @@
-This is a way good question. Here are two possible solutions to this problem:
+I ran into the problem of how to have multiple camera previews displayed at the same time. I found two different but applicable solutions to the problem.
 
 1. CAReplicatorLayer
 ===
