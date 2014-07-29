@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2AD0B9F1986BFA500397966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0B9E1986BFA500397966 /* Foundation.framework */; };
+		B2AD0BA11986BFA500397966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0BA01986BFA500397966 /* CoreGraphics.framework */; };
+		B2AD0BA31986BFA500397966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0BA21986BFA500397966 /* UIKit.framework */; };
+		B2AD0BA91986BFA500397966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2AD0BA71986BFA500397966 /* InfoPlist.strings */; };
+		B2AD0BAB1986BFA500397966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD0BAA1986BFA500397966 /* main.m */; };
+		B2AD0BAF1986BFA500397966 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD0BAE1986BFA500397966 /* JSAppDelegate.m */; };
+		B2AD0BB11986BFA500397966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AD0BB01986BFA500397966 /* Images.xcassets */; };
+		B2AD0BB81986BFA500397966 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0BB71986BFA500397966 /* XCTest.framework */; };
+		B2AD0BB91986BFA500397966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0B9E1986BFA500397966 /* Foundation.framework */; };
+		B2AD0BBA1986BFA500397966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD0BA21986BFA500397966 /* UIKit.framework */; };
+		B2AD0BC21986BFA500397966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2AD0BC01986BFA500397966 /* InfoPlist.strings */; };
+		B2AD0BC41986BFA500397966 /* MultipleCameraFeedsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD0BC31986BFA500397966 /* MultipleCameraFeedsTests.m */; };
+		B2EC79081986C6B800D8A14C /* JSOpenGLFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC79061986C6B800D8A14C /* JSOpenGLFeedsViewController.m */; };
+		B2EC7914198701DF00D8A14C /* JSSolutionMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC7913198701DF00D8A14C /* JSSolutionMenuViewController.m */; };
+		B2EC791719871C6C00D8A14C /* JSReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EC791619871C6C00D8A14C /* JSReplicatorLayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2AD0BBB1986BFA500397966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2AD0B931986BFA500397966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2AD0B9A1986BFA500397966;
+			remoteInfo = MultipleCameraFeeds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2AD0B9B1986BFA500397966 /* MultipleCameraFeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleCameraFeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AD0B9E1986BFA500397966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2AD0BA01986BFA500397966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2AD0BA21986BFA500397966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2AD0BA61986BFA500397966 /* MultipleCameraFeeds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleCameraFeeds-Info.plist"; sourceTree = "<group>"; };
+		B2AD0BA81986BFA500397966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2AD0BAA1986BFA500397966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2AD0BAC1986BFA500397966 /* MultipleCameraFeeds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleCameraFeeds-Prefix.pch"; sourceTree = "<group>"; };
+		B2AD0BAD1986BFA500397966 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		B2AD0BAE1986BFA500397966 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		B2AD0BB01986BFA500397966 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2AD0BB61986BFA500397966 /* MultipleCameraFeedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleCameraFeedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AD0BB71986BFA500397966 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2AD0BBF1986BFA500397966 /* MultipleCameraFeedsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleCameraFeedsTests-Info.plist"; sourceTree = "<group>"; };
+		B2AD0BC11986BFA500397966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2AD0BC31986BFA500397966 /* MultipleCameraFeedsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleCameraFeedsTests.m; sourceTree = "<group>"; };
+		B2EC79061986C6B800D8A14C /* JSOpenGLFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSOpenGLFeedsViewController.m; sourceTree = "<group>"; };
+		B2EC79071986C6B800D8A14C /* JSOpenGLFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSOpenGLFeedsViewController.h; sourceTree = "<group>"; };
+		B2EC7912198701DF00D8A14C /* JSSolutionMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSolutionMenuViewController.h; sourceTree = "<group>"; };
+		B2EC7913198701DF00D8A14C /* JSSolutionMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSolutionMenuViewController.m; sourceTree = "<group>"; };
+		B2EC791519871C6C00D8A14C /* JSReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		B2EC791619871C6C00D8A14C /* JSReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSReplicatorLayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2AD0B981986BFA500397966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD0BA11986BFA500397966 /* CoreGraphics.framework in Frameworks */,
+				B2AD0BA31986BFA500397966 /* UIKit.framework in Frameworks */,
+				B2AD0B9F1986BFA500397966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AD0BB31986BFA500397966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD0BB81986BFA500397966 /* XCTest.framework in Frameworks */,
+				B2AD0BBA1986BFA500397966 /* UIKit.framework in Frameworks */,
+				B2AD0BB91986BFA500397966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2AD0B921986BFA500397966 = {
+			isa = PBXGroup;
+			children = (
+				B2AD0BA41986BFA500397966 /* MultipleCameraFeeds */,
+				B2AD0BBD1986BFA500397966 /* MultipleCameraFeedsTests */,
+				B2AD0B9D1986BFA500397966 /* Frameworks */,
+				B2AD0B9C1986BFA500397966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2AD0B9C1986BFA500397966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0B9B1986BFA500397966 /* MultipleCameraFeeds.app */,
+				B2AD0BB61986BFA500397966 /* MultipleCameraFeedsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2AD0B9D1986BFA500397966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0B9E1986BFA500397966 /* Foundation.framework */,
+				B2AD0BA01986BFA500397966 /* CoreGraphics.framework */,
+				B2AD0BA21986BFA500397966 /* UIKit.framework */,
+				B2AD0BB71986BFA500397966 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AD0BA41986BFA500397966 /* MultipleCameraFeeds */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0BAD1986BFA500397966 /* JSAppDelegate.h */,
+				B2AD0BAE1986BFA500397966 /* JSAppDelegate.m */,
+				B2EC7912198701DF00D8A14C /* JSSolutionMenuViewController.h */,
+				B2EC7913198701DF00D8A14C /* JSSolutionMenuViewController.m */,
+				B2EC79071986C6B800D8A14C /* JSOpenGLFeedsViewController.h */,
+				B2EC79061986C6B800D8A14C /* JSOpenGLFeedsViewController.m */,
+				B2EC791519871C6C00D8A14C /* JSReplicatorLayerViewController.h */,
+				B2EC791619871C6C00D8A14C /* JSReplicatorLayerViewController.m */,
+				B2AD0BB01986BFA500397966 /* Images.xcassets */,
+				B2AD0BA51986BFA500397966 /* Supporting Files */,
+			);
+			path = MultipleCameraFeeds;
+			sourceTree = "<group>";
+		};
+		B2AD0BA51986BFA500397966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0BA61986BFA500397966 /* MultipleCameraFeeds-Info.plist */,
+				B2AD0BA71986BFA500397966 /* InfoPlist.strings */,
+				B2AD0BAA1986BFA500397966 /* main.m */,
+				B2AD0BAC1986BFA500397966 /* MultipleCameraFeeds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2AD0BBD1986BFA500397966 /* MultipleCameraFeedsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0BC31986BFA500397966 /* MultipleCameraFeedsTests.m */,
+				B2AD0BBE1986BFA500397966 /* Supporting Files */,
+			);
+			path = MultipleCameraFeedsTests;
+			sourceTree = "<group>";
+		};
+		B2AD0BBE1986BFA500397966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD0BBF1986BFA500397966 /* MultipleCameraFeedsTests-Info.plist */,
+				B2AD0BC01986BFA500397966 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2AD0B9A1986BFA500397966 /* MultipleCameraFeeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AD0BC71986BFA500397966 /* Build configuration list for PBXNativeTarget "MultipleCameraFeeds" */;
+			buildPhases = (
+				B2AD0B971986BFA500397966 /* Sources */,
+				B2AD0B981986BFA500397966 /* Frameworks */,
+				B2AD0B991986BFA500397966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleCameraFeeds;
+			productName = MultipleCameraFeeds;
+			productReference = B2AD0B9B1986BFA500397966 /* MultipleCameraFeeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2AD0BB51986BFA500397966 /* MultipleCameraFeedsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AD0BCA1986BFA500397966 /* Build configuration list for PBXNativeTarget "MultipleCameraFeedsTests" */;
+			buildPhases = (
+				B2AD0BB21986BFA500397966 /* Sources */,
+				B2AD0BB31986BFA500397966 /* Frameworks */,
+				B2AD0BB41986BFA500397966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2AD0BBC1986BFA500397966 /* PBXTargetDependency */,
+			);
+			name = MultipleCameraFeedsTests;
+			productName = MultipleCameraFeedsTests;
+			productReference = B2AD0BB61986BFA500397966 /* MultipleCameraFeedsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2AD0B931986BFA500397966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Johnny Slagle";
+				TargetAttributes = {
+					B2AD0BB51986BFA500397966 = {
+						TestTargetID = B2AD0B9A1986BFA500397966;
+					};
+				};
+			};
+			buildConfigurationList = B2AD0B961986BFA500397966 /* Build configuration list for PBXProject "MultipleCameraFeeds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2AD0B921986BFA500397966;
+			productRefGroup = B2AD0B9C1986BFA500397966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2AD0B9A1986BFA500397966 /* MultipleCameraFeeds */,
+				B2AD0BB51986BFA500397966 /* MultipleCameraFeedsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2AD0B991986BFA500397966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD0BA91986BFA500397966 /* InfoPlist.strings in Resources */,
+				B2AD0BB11986BFA500397966 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AD0BB41986BFA500397966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD0BC21986BFA500397966 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2AD0B971986BFA500397966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EC79081986C6B800D8A14C /* JSOpenGLFeedsViewController.m in Sources */,
+				B2AD0BAB1986BFA500397966 /* main.m in Sources */,
+				B2EC791719871C6C00D8A14C /* JSReplicatorLayerViewController.m in Sources */,
+				B2AD0BAF1986BFA500397966 /* JSAppDelegate.m in Sources */,
+				B2EC7914198701DF00D8A14C /* JSSolutionMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AD0BB21986BFA500397966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AD0BC41986BFA500397966 /* MultipleCameraFeedsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2AD0BBC1986BFA500397966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2AD0B9A1986BFA500397966 /* MultipleCameraFeeds */;
+			targetProxy = B2AD0BBB1986BFA500397966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2AD0BA71986BFA500397966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AD0BA81986BFA500397966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2AD0BC01986BFA500397966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AD0BC11986BFA500397966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2AD0BC51986BFA500397966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2AD0BC61986BFA500397966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2AD0BC81986BFA500397966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleCameraFeeds/MultipleCameraFeeds-Prefix.pch";
+				INFOPLIST_FILE = "MultipleCameraFeeds/MultipleCameraFeeds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2AD0BC91986BFA500397966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleCameraFeeds/MultipleCameraFeeds-Prefix.pch";
+				INFOPLIST_FILE = "MultipleCameraFeeds/MultipleCameraFeeds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2AD0BCB1986BFA500397966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleCameraFeeds.app/MultipleCameraFeeds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleCameraFeeds/MultipleCameraFeeds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultipleCameraFeedsTests/MultipleCameraFeedsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2AD0BCC1986BFA500397966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleCameraFeeds.app/MultipleCameraFeeds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleCameraFeeds/MultipleCameraFeeds-Prefix.pch";
+				INFOPLIST_FILE = "MultipleCameraFeedsTests/MultipleCameraFeedsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2AD0B961986BFA500397966 /* Build configuration list for PBXProject "MultipleCameraFeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AD0BC51986BFA500397966 /* Debug */,
+				B2AD0BC61986BFA500397966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2AD0BC71986BFA500397966 /* Build configuration list for PBXNativeTarget "MultipleCameraFeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AD0BC81986BFA500397966 /* Debug */,
+				B2AD0BC91986BFA500397966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2AD0BCA1986BFA500397966 /* Build configuration list for PBXNativeTarget "MultipleCameraFeedsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AD0BCB1986BFA500397966 /* Debug */,
+				B2AD0BCC1986BFA500397966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2AD0B931986BFA500397966 /* Project object */;
+}
