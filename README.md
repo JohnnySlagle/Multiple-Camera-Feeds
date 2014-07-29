@@ -122,9 +122,12 @@ Because the native video image from the back camera is in UIDeviceOrientationLan
     self.livePreviewView.frame = self.bounds;    
     [self addSubview: self.livePreviewView];
     
-Bind the frame buffer to get the frame buffer width and height. The bounds used by CIContext when drawing to a GLKView are in pixels (not points), hence the need to read from the frame buffer's width and height. In addition, since we will be accessing the bounds in another queue (_captureSessionQueue), we want to obtain this piece of information so that we won't be accessing _videoPreviewView's properties from another thread/queue
+Bind the frame buffer to get the frame buffer width and height. The bounds used by CIContext when drawing to a GLKView are in pixels (not points), hence the need to read from the frame buffer's width and height.
 
     [self.livePreviewView bindDrawable];
+    
+In addition, since we will be accessing the bounds in another queue (_captureSessionQueue), we want to obtain this piece of information so that we won't be accessing _videoPreviewView's properties from another thread/queue.
+
     _videoPreviewViewBounds = CGRectZero;
     _videoPreviewViewBounds.size.width = _videoPreviewView.drawableWidth;
     _videoPreviewViewBounds.size.height = _videoPreviewView.drawableHeight;
@@ -138,7 +141,7 @@ Bind the frame buffer to get the frame buffer width and height. The bounds used 
         self.livePreviewView.frame = self.bounds;
     });
 
-Note: If you are using the front camera you can horizontally flip the live preview like this:
+*Note: If you are using the front camera you can horizontally flip the live preview like this:*
 
 	transform = CGAffineTransformConcat(transform, CGAffineTransformMakeScale(-1.0, 1.0));
 
