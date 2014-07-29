@@ -209,6 +209,6 @@ This solution lets you have as many live previews as you want using OpenGL to re
 3. Sample Code
 ===
 
-This is a quick and dirty project I threw together to show how to use both examples.
+This is a quick and dirty project I threw together to show how to use both previously detailed soultions.
 
 
