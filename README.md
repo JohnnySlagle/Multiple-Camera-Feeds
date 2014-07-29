@@ -1,4 +1,4 @@
-I ran into the problem of how to have multiple camera previews displayed at the same time. I found two different but applicable solutions to the problem.
+I ran into the problem of needing to have multiple live camera previews displayed on a view, at the same time. After finding no viable solutions online and through much work, I present two different, but equally useful, solutions:
 
 1. CAReplicatorLayer
 ===
