@@ -1,3 +1,6 @@
+Introduction
+===
+
 I ran into the problem of needing to have multiple live camera previews displayed on a view, at the same time. After finding no viable solutions online and through much work, I present two different, but equally useful, solutions:
 
 1. CAReplicatorLayer
